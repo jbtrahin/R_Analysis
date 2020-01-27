@@ -16,8 +16,8 @@ The goals for this challenge are to:
 ## Resources
 - Software: Visual Studio Code 1.39.0, RStudio 1.2.5033
 - Data Sources:
-  2. MechaCar Data:  
-  3. Suspension Coil Data: 
+1. MechaCar Data: [click here](https://github.com/jbtrahin/R_Analysis/blob/master/Module15_Challenge/MechaCar_mpg.csv) 
+2. Suspension Coil Data: [click here](https://github.com/jbtrahin/R_Analysis/blob/master/Module15_Challenge/Suspension_Coil.csv) 
 
 ## Challenge
-You'll find the challenge submission here: [Module 15 Challenge]()
+You'll find the challenge submission here: [Module 15 Challenge](https://github.com/jbtrahin/R_Analysis/tree/master/Module15_Challenge)
