@@ -4,7 +4,8 @@
 
 To design a model that predicts the MPG of MechaCar, we used multiple linear regression and selected the following continuous data points to include in our model: vehicle length, vehicle weight, spiler angle and ground clearance. We compared MPG to these data points.
 
-Here is our model summary: ![alt text](image.jpg)
+Here is our model summary: 
+![alt text](https://github.com/jbtrahin/R_Analysis/blob/master/Module15_Challenge/screenshots/1_mulitple_linear_regression_outcome.png)
 
 Let's look at the contribution of each variables to our model by looking at the individual variable p-values. According to our results, intercept, vehicle length and ground clearance are three variables that are statistically unlikely to provide random amounts of variance to our model, with a Pr(>|t|) value < 0.05. Let's note that when an intercept is statistically significant (1.87x10<sup>-08</sup> in this case), it means there are other variables and factors that contribute to the variation in MPG that have not been included in our model. We can conclude here that there is a relationship between MPG and vehicle length, and between MPG and ground clearance.
 
@@ -18,9 +19,11 @@ However, although our multiple linear regression model performs well at predicti
 
 ### Summary Tables
 
-Here is our summary table overall: ![alt text](image.jpg)
+Here is our summary table overall: 
+![alt text](https://github.com/jbtrahin/R_Analysis/blob/master/Module15_Challenge/screenshots/2_summary_statistic_overall.png)
 
-Here is our summary table by lot: ![alt text](image.jpg)
+Here is our summary table by lot: 
+![alt text](https://github.com/jbtrahin/R_Analysis/blob/master/Module15_Challenge/screenshots/3_summary_statistic_by_lot.png)
 
 The summary tables provide the following findings:
 * The mean and the median are very close to each other (around 1500 PSI) for all lots, meaning that each lot dataset has a symmetrical distribution.
@@ -37,7 +40,7 @@ Here our test results by lot:
 
 |     Lot 1      |     Lot 2     |      Lot 3     |
 |:-------------: | :-----------: | :------------: |
-|![alt text]() | ![alt text]() | ![alt text]()|
+|![alt text](https://github.com/jbtrahin/R_Analysis/blob/master/Module15_Challenge/screenshots/4_one_sample_t_test_lot1.png) | ![alt text](https://github.com/jbtrahin/R_Analysis/blob/master/Module15_Challenge/screenshots/4_one_sample_t_test_lot2.png) | ![alt text](https://github.com/jbtrahin/R_Analysis/blob/master/Module15_Challenge/screenshots/4_one_sample_t_test_lot3.png)|
 
 Hera are ou findings:
 * Lot 1: we observe a p-value of 1. We can conclude that we can't reject the null hypothesis and that the mean of the PSU for Lot 1 is similar to the population mean of 1,500 pounds per inch.
